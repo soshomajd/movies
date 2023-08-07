@@ -23,7 +23,7 @@ const Singlemovie = async ({params}) => {
            <div className=" text-xl font-extrabold ml-5 flex-col justify-start items-start flex-wrap ">
                 <div className="p-5 bg-slate-300 shadow-md shadow-slate-400 m-2 rounded"><span className="text-xl font-extrabold text-red-600">Name:</span>{SingleData.title}</div>
                 <div className="p-5 bg-slate-300 shadow-md shadow-slate-400 m-2 rounded"> <span className="text-xl font-extrabold text-red-600">Year:</span>{SingleData.year}</div>
-                <div className="p-5 bg-slate-300 shadow-md shadow-slate-400 m-2 rounded"><span className="text-xl font-extrabold text-red-600">Country:</span>{SingleData.country}</div>
+                <div className="p-5 bg-slate-300 shadow-sm shadow-slate-400 m-2 rounded"><span className="text-xl font-extrabold text-red-600">Country:</span>{SingleData.country}</div>
                 <div className="p-5 bg-slate-300 shadow-md shadow-slate-400 m-2 rounded"> <span className="text-xl font-extrabold text-red-600">IMDB:</span>{SingleData.imdb_rating}</div>
            </div>
            <div className="p-5 bg-slate-300 shadow-md shadow-slate-400  m-1 rounded">{SingleData.genres.map((item,index)=>{
